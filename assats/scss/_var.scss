@@ -1,0 +1,12 @@
+@mixin maxWidth($width){
+  max-width:$width;
+  width:100%;
+  box-sizing:border-box;
+}
+
+@mixin transitionAll($seconds){
+  -webkit-transition: all $seconds;
+  -moz-transition: all $seconds;
+  -o-transition: all $seconds;
+  transition: all $seconds;
+}
